@@ -6,7 +6,7 @@ This is the 1rst supervised machine learning project. The goal is to predict the
 
 ## Getting Started
 
-All the models tested are in this [Notebook](Conversion_rate_challenge_YP.ipynb).
+All the models tested are in this [Notebook](Walmart_project_YP.ipynb).
 * Part 1 : EDA & Preprocessing
 * Part 2 : Baseline Model - Linear Regression
 * Part 3 : Fighting overfitting - Ridge & Lasso
@@ -34,7 +34,7 @@ plotly.graph_objects
 
 Here some example of results:
 
-* Baseline Linear Regression:
+* *Baseline Linear Regression*:
 Score: 
 ```python
 Cross-validated accuracy : 0.9553550974246763
@@ -42,16 +42,20 @@ standard deviation : 0.028341216024172698
 R2 score on test set is finally:  0.9635628474241823 or  0.9068804153758369
 and that's under the R2 score on training set : 0.9868321417045137
 ````
-Features importance:
+** Features importance: **
+
 ![features_importance](features_importance.png)
 
-* Ridge:
+* *Ridge*:
+  
 ![ridge](ridge_test.png)
 
-* Lasso:
+* *Lasso*:
+  
 ![lasso](Lasso_test.png)
 
-* Ridge Vs Lasso
+* *Ridge Vs Lasso*:
+  
 ![ridge_vs_lasso](ridge_vs_lasso.png)
 
 Finally, this is with the ridge at $\alpha$ = 0.0012 that coorects the best the little overfitting of the baseline model
