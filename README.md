@@ -42,7 +42,7 @@ standard deviation : 0.028341216024172698
 R2 score on test set is finally:  0.9635628474241823 or  0.9068804153758369
 and that's under the R2 score on training set : 0.9868321417045137
 ````
-** Features importance: **
+**Features importance**: 
 
 ![features_importance](features_importance.png)
 
